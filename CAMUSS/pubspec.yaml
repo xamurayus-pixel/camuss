@@ -1,0 +1,20 @@
+name: camuss
+description: CAMUSS — Sistema Inteligente de Monitoramento e Segurança
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.5.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  network_info_plus: ^6.0.0
+  http: ^1.2.0
+  provider: ^6.1.0
+
+dev_dependencies:
+  flutter_test: ^1.25.0
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
